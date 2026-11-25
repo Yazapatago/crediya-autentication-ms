@@ -27,5 +27,13 @@ management:
     health:
       probes:
         enabled: true
+springdoc:
+  api-docs:
+    path: "/v3/api-docs"
+  swagger-ui:
+    path: "/swagger-ui.html"
+logging:
+  level:
+    co.com.crediya: "DEBUG"
 cors:
   allowed-origins: "http://localhost:4200,http://localhost:8080"
